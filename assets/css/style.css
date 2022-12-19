@@ -1,0 +1,29 @@
+/* Font Style - Taken from Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+/* Removing default CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+/* Header Styling */
+
+header h1 {
+    background: linear-gradient(120deg, #4c5959, #162222);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 7.5vh;
+    font-size: 5vh;
+}
