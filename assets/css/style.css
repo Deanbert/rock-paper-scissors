@@ -57,25 +57,41 @@ header h1 {
 
 /* Restart Button */
 
-.restart {
+#restart {
     cursor: pointer;
     height: 75px;
     width: 75px;
     border: 1px solid #3a3a3a;
     border-radius: 50%;
-    transition:all 250ms;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:#ccc;
+    background-color:#889696;
     margin-top: 10px;
+    transition: 500ms;
+}
 
+#restart:hover {
+    transform: rotate(360deg);
 }
 
 /* Results Container Styling */
 
 #results-container {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Choice Container Styling*/
+
+#choice-container {
     color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -127,6 +143,7 @@ footer {
     justify-content: center;
     justify-content: space-evenly;
     font-size: 2rem;
+    margin-bottom: 2vh;
 }
 
 .how-to-play {
@@ -139,7 +156,7 @@ footer {
     padding-bottom: 0.5vh;
 }
 
-li h1 {
-    border-bottom: solid 1px #3a3a3a;
+li h2 {
+    border-bottom: solid 4px #3a3a3a;
 
 }

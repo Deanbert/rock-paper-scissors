@@ -21,34 +21,34 @@
     <div id="game-container">
         <!-- Score Section -->
         <div id="score-container">
-            <h1 class="player-score">Player Score:<span class="player-result"> 0</span></h1>
-            <h1 class="computer-score">Computer Score:<span class='computer-result'> 0</span></h1>
+            <h2 class="player-score">Player Score:<span class="player-result"> 0</span></h2>
+            <button id="restart">Restart Game</button>
+            <h2 class="computer-score">Computer Score:<span class='computer-result'> 0</span></h2>
+        </div>
+        
+        <!-- Result Display Section -->
+        <div id="results-container">
+            <h2>Result: <span id="result"></span></h2>
         </div>
 
-        <br>
-        
-        <!-- Results Display Section -->
-        <div id="results-container">
-            <span class="player-result">
-                <h1>Player Choice:</h1>
-            </span>
-            <button class="restart">Restart Game</button>
-            <span class="computer-result">
-                <h1>Computer Choice:</h1>
-            </span>
-        </div> 
+        <!-- Choice Display Section. 
+        HTML for choice display section taken from Ania Kubow as stated in readme file -->
+        <div id="choice-container">
+                <h2>Computer Choice: <span id="computer-choice"></span></h2>
+                <h2>Your Choice: <span id="user-choice"></span></h2>
+        </div>
 
-        <!-- Choice Selector Section -->
+        <!-- Button Selector Section -->
         <div id="rps-container">
-            <button class="btn-selector" data-choice="0" alt="Rock">🤟</button>
-            <button class="btn-selector" data-choice="1" alt="Paper">🤚</button>
-            <button class="btn-selector" data-choice="2" alt="Scissors">✌️</button>
+            <button id="rock" class="btn-selector" alt="Rock">🤟</button>
+            <button id="paper" class="btn-selector" alt="Paper">🤚</button>
+            <button id="scissors" class="btn-selector" alt="Scissors">✌️</button>
         </div>
     </div> 
 
     <footer>
             <ul class="how-to-play">
-                <li><h1>How to Play</h1></li>
+                <li><h2>How to Play</h2></li>
                 <li>Rock crushes Scissors</li>
                 <li>Scissors cuts Paper</li>
                 <li>Paper covers Rock</li>
