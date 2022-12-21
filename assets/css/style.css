@@ -19,35 +19,127 @@ body {
 
 /* Header Styling */
 
-header h1 {
+header {
     background: linear-gradient(120deg, #4c5959, #162222);
+    font-size: 2rem;
+}
+
+header h1 {
     color: #ffffff;
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 7.5vh;
-    font-size: 5vh;
+    overflow: auto;
+    width:100vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-/* Footer */
+/* Score Container Styling */
+
+#score-container {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.player-score {
+    padding-left: 10vw;
+}
+
+.computer-score {
+    padding-right: 10vw;
+}
+
+/* Restart Button */
+
+.restart {
+    cursor: pointer;
+    height: 75px;
+    width: 75px;
+    border: 1px solid #3a3a3a;
+    border-radius: 50%;
+    transition:all 250ms;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#ccc;
+    margin-top: 10px;
+
+}
+
+/* Results Container Styling */
+
+#results-container {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Game Container Styling */
+
+#rps-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-selector {
+    cursor: pointer;
+    border: none;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    width: auto;
+    margin: 50px;
+    font-size: 4rem;
+    transition: 100ms;
+}
+
+.btn-selector:hover {
+    transform: scale(1.3);
+}
+
+.how-to-play {
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top: 100%;
+}
+
+/* Footer Styling */
 
 footer {
-    background-image: linear-gradient(120deg, #162222, #4c5959);
-    font-size: 7.5rem;
-    position: sticky;
-    min-height: 5vh;
-}
-
-.social-container {
     display: flex;
     align-items: center;
-    align-content: center;
-    justify-content: space-around;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+}
+
+.how-to-play {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
 }
 
-.icon {
-    color: #889696;
+li h1 {
+    border-bottom: solid 1px #3a3a3a;
+
 }

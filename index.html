@@ -14,64 +14,46 @@
 <body>
     <!-- Header -->
     <header>
-        <h1>Rock, Paper,  Scissors!</h1>
+        <h1>Rock, Paper, Scissors!</h1>
     </header>
 
     <!-- Main Gaming Section-->
     <div id="game-container">
-    <!-- Score Section -->
+        <!-- Score Section -->
         <div id="score-container">
-            <span class="player-score"></span>        
-            <span class="computer-score"></span>
+            <h1 class="player-score">Player Score:<span class="player-result"> 0</span></h1>
+            <h1 class="computer-score">Computer Score:<span class='computer-result'> 0</span></h1>
         </div>
-    <!-- Results Display Section -->
-        <div id="reults-container">
-            <span class="player-result"></span>        
-            <span class="computer-result"></span>
-        </div>
-    <!-- Choice Selector Section -->
+
+        <br>
+        
+        <!-- Results Display Section -->
+        <div id="results-container">
+            <span class="player-result">
+                <h1>Player Choice:</h1>
+            </span>
+            <button class="restart">Restart Game</button>
+            <span class="computer-result">
+                <h1>Computer Choice:</h1>
+            </span>
+        </div> 
+
+        <!-- Choice Selector Section -->
         <div id="rps-container">
-            <button class="selector">
-                <img src="./assets/images/rps - rock.jpg" alt="Rock">Rock
-            </button>
-            <button class="selector">
-                <img src="./assets/images/rps - paper.jpg" alt="Paper">Paper
-            </button>
-            <button class="selector">
-                <img src="./assets/images/rps - scissors.jpg" alt="Scissors">Scissors
-            </button>
+            <button class="btn-selector" data-choice="0" alt="Rock">🤟</button>
+            <button class="btn-selector" data-choice="1" alt="Paper">🤚</button>
+            <button class="btn-selector" data-choice="2" alt="Scissors">✌️</button>
         </div>
     </div> 
 
-    <!-- Footer -->
     <footer>
-        <ul class="social-container">
-            <li>
-                <a class="icon" href="https://github.com/Deanbert" target="_blank" rel="noopener"
-                    aria-label="Visit my Github page (opens in new tab)">
-                    <i class="fa-brands fa-square-github"></i>
-                </a>
-            </li>
-            <li>
-                <a class="icon" href="https://www.linkedin.com/in/dean-fay/" target="_blank" rel="noopener"
-                    aria-label="Visit my LinkedIn page (opens in new tab)">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-            </li>
-            <li>
-                <a class="icon" href="https://www.instagram.com/deanbert/" target="_blank" rel="noopener"
-                    aria-label="Visit my instagram page (opens in new tab)">
-                    <i class="fa-brands fa-square-instagram"></i>
-                </a>
-            </li>
-            <li>
-                <a class="icon" href="https://www.facebook.com/dean.ofaidh/" target="_blank" rel="noopener"
-                    aria-label="Visit my Facebook page (opens in new tab)">
-                    <i class="fa-brands fa-square-facebook"></i>
-                </a>
-            </li>
-        </ul>
-    </footer>
+            <ul class="how-to-play">
+                <li><h1>How to Play</h1></li>
+                <li>Rock crushes Scissors</li>
+                <li>Scissors cuts Paper</li>
+                <li>Paper covers Rock</li>
+            </ul>
+        </footer>
 
     <!-- Script sources for JS and Font Awesome -->
     <script src="/assets/js/script.js"></script>
