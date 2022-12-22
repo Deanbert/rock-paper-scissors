@@ -25,12 +25,11 @@
 * [Deployment & Local Development](#Deployment-&-Local-Development)
   * [Deployment](#Deployment)
   * [Local Development](#Local-Development)
-    * [How to Clone](#How-to-Clone)
+  * [How to Clone](#How-to-Clone)
 
 * [Testing](#Testing)
   * [Validation](#Validation)
   * [Solved Bugs](#Solved-Bugs)
-  * [Known Bugs](#Known-Bugs)
   * [Testing User Stories](#Testing-User-Stories)
   * [Lighthouse](#Lighthouse)
   * [Full Testing](#Full-Testing)
