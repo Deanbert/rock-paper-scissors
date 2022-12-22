@@ -3,6 +3,8 @@ const computerChoiceDisplay = document.getElementById('computer-choice')
 const userChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementById('result')
 const possibleChoices = document.querySelectorAll('button')
+const computerScore = document.getElementById('computer-score')
+const playerScore = document.getElementById('player-score')
 let userChoice
 let computerChoice
 let result
@@ -38,19 +40,19 @@ function getResult() {
     result = 'Its a draw! Try Again'
   }
   if (computerChoice === 'rock' && userChoice === "paper") {
-    result = 'You win, Congratulations!'
+    result = 'You Win, Congratulations!'
   }
   if (computerChoice === 'rock' && userChoice === "scissors") {
-    result = 'Commiserations, You Lost!'
+    result = 'Hard Luck, Try Again!'
   }
   if (computerChoice === 'paper' && userChoice === "scissors") {
-    result = 'You win, Congratulations!'
+    result = 'Victory! Keep going for the Big Win.'
   }
   if (computerChoice === 'paper' && userChoice === "rock") {
-    result = 'Commiserations, You Lost!'
+    result = 'You Lost, but dont Give Up!'
   }
   if (computerChoice === 'scissors' && userChoice === "rock") {
-    result = 'You win, Congratulations!'
+    result = 'You Won, Show that Computer Whos Boss!'
   }
   if (computerChoice === 'scissors' && userChoice === "paper") {
     result = 'Commiserations, You Lost!'
