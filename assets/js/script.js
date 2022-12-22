@@ -3,8 +3,6 @@ const computerChoiceDisplay = document.getElementById('computer-choice');
 const userChoiceDisplay = document.getElementById('user-choice');
 const resultDisplay = document.getElementById('result');
 const possibleChoices = document.querySelectorAll('button');
-const computerScore = document.getElementById('computer-score');
-const playerScore = document.getElementById('player-score');
 let userChoice;
 let computerChoice;
 let result;
