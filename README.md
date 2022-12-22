@@ -1,6 +1,6 @@
-# Rock, Paper, Scissors Game
+# Rock, Paper, Scissors, Lizard, Spock Game
 
-![Rock, Paper, Scissors game shown on a range of devices](assets/images/am-i-responsive.jpg)
+![Rock, Paper, Scissors game shown on a range of devices](./assets/images/am-i-responsive.png)
 
 [View Rock, Paper, Scissors game on Github Pages](https://deanbert.github.io/rock-paper-scissors/)
 
@@ -45,7 +45,7 @@
 
 ### Initial Discussion
 
-Rock, Paper, Scissors in a fun and interactive game that people of all ages can enjoy
+Rock, Paper, Scissors, Lizard, Spock in a fun and interactive game that people of all ages can enjoy
 
 ### User Stories
 
@@ -62,9 +62,16 @@ Rock, Paper, Scissors in a fun and interactive game that people of all ages can 
 ###
 
 How to Play.
-* Rock beats Scissors.
-* Paper Beats Rock.
-* Scissors beats Paper.
+* Scissors cuts paper
+* Paper covers Rock
+* Rock crushes lizard
+* Lizard poisons spock
+* Spock smashes scissors
+* Scissors decapitates lizard
+* Lizard eats paper
+* Paper disproves spock
+* Spock vaporises rock
+* Rock crushes Scissors
 * First to 5 wins the Game.
 
 - - -
@@ -73,7 +80,7 @@ How to Play.
 
 ### Colour Scheme
 
-![Rock, Paper, Scissors Colour Palette](assets/images/Color Palette from mycolor.space)
+![Rock, Paper, Scissors, Lizard, Spock Colour Palette](./assets/images/color-palette-from-mycolor.space.png)
 
 The website uses a palette of dark shades with contrasting white font. The colour palette was taken from [mycolor.space](https://mycolor.space/) website.
 
@@ -93,7 +100,7 @@ I had intended to use some high resolution images taken from unsplash.com, but d
 
 Wireframes were created for mobile, tablet and desktop using Balsamiq Wireframes.
 
-[Wireframe](assets/images/p2-wireframe.png)
+[Wireframe](./assets/images/p2-wireframe.png)
 
 ### Features
 
@@ -193,18 +200,18 @@ Some of the bugs found were:
 
 ### Validation
 
-The W3C validator was used to validate the HTML of the website. It was also used to validate CSS in the style.css file.
+The W3C validator was used to validate the HTML of the website. It was also used to validate CSS in the style.css file. JS Hint was used to validate JavaScript
 
-* [W3C HTML](assets/images/w3-html-validator.png)
-* [style.css CSS](assets/images/w3-css-validator.png)
-* [JS Hint](assets/images/js-hint-testing.png)
+* [W3C HTML](./assets/images/w3-html-validator.png)
+* [style.css CSS](./assets/images/w3-css-validator.png)
+* [JS Hint](./assets/images/js-hint-testing.png)
 
 ### Lighthouse
 
 I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
 
-[Lighthouse Desktop Testing](assets/images/lighthouse-desktop.png)
-[Lighthouse Moblie Testing](assets/images/lighthouse-mobile.png)
+[Lighthouse Desktop Testing](./assets/images/lighthouse-desktop.png)
+[Lighthouse Moblie Testing](./assets/images/lighthouse-mobile.png)
 
 ### Full Testing
 
