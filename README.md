@@ -234,3 +234,4 @@ Content for the website was written by Dean Fay.
 ### Acknowledgments
 
 I would like to thank Kasia Bogucka, My Cohort facilitator for helping me in submitting my second milestone project.
+Also Jo Heyndels for her help with deployment
