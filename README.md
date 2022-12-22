@@ -210,8 +210,8 @@ The W3C validator was used to validate the HTML of the website. It was also used
 
 I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
 
-[Lighthouse Desktop Testing](./assets/images/lighthouse-desktop.png)
-[Lighthouse Moblie Testing](./assets/images/lighthouse-mobile.png)
+* [Lighthouse Desktop Testing](./assets/images/lighthouse-desktop.png)
+* [Lighthouse Moblie Testing](./assets/images/lighthouse-mobile.png)
 
 ### Full Testing
 
